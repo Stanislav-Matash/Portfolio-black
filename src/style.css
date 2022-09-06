@@ -1,0 +1,168 @@
+html, body {
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	background-color: #1b1b1b;
+}
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+ul, li {
+	list-style: none;
+}
+/* --------------------------------     HEADER     ------*/
+.header {}
+
+.header__container {
+	position: relative;
+	z-index: 2;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 50px 150px;
+}
+
+.header__logo {
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.header__items {}
+.header__items:not(:last-child) {
+	margin: 0px 0px 0px 0px;
+}
+
+.header__item {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 500;
+}
+.header__item:not(:last-child) {
+	margin: 0px 15px 0px 0px;
+}
+.header__item:hover {
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+	
+}
+
+
+/*----------------------------------     MAIN    -------*/
+.main_conteiner {
+	position: relative;
+}
+.main_bg img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+}
+
+.name {
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 170px;
+	margin-bottom: 10px;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 72px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.subtitle {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 166%;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.button {
+	text-align: center;
+	color: #272142;
+	margin-bottom: 280px;
+}
+
+.button_but {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 18px 40px;
+	border-radius: 50px;
+	background: #FFFFFF;
+}
+
+/*--------------------------------------      PICTURES     -------*/
+.section {
+	background-color: #1b1b1b;
+	
+	padding-bottom: 100px;
+}
+
+.section__pictures {
+	display: flex;
+	flex-direction: column;
+	padding-top: 100px;
+	margin: 0px 90px;
+	
+}
+.picture__container {
+   display: flex;
+	
+	
+}
+.picture__container:not(:last-child) {
+	margin-bottom: 40px;
+}
+.image {
+	flex: 1 1 auto;
+	max-height: 280px;
+}
+.image:not(:last-child) {
+	margin: 0px 40px 0px 0px;
+}
+.image img {
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------    FOOTER    -------------*/
+.footer__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 150px;
+	background: #282323;
+	height: 100px;
+}
+.footer__name {
+	font-weight: 700;
+	font-size: 36px;
+}
+.footer__images {
+	display: flex;
+	margin: 0px 0px 0px 80px;
+}
+.footer_image {
+	margin: 0px 10px;
+}
+.footer__text {
+	font-weight: 400;
+	font-size: 16px;
+}
