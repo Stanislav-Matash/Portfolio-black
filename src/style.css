@@ -2,11 +2,12 @@ html, body {
 	color: #FFFFFF;
 	font-family: 'Roboto', sans-serif;
 	background-color: #1b1b1b;
+	margin: 0;
+	padding: 0;
 }
 *, *:before, *:after {
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+	
 }
 ul, li {
 	list-style: none;
